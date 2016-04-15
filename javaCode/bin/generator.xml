@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>
+		代码生成器配置文件: 
+		1.会为所有的property生成property_dir属性,如pkg=com.company => pkg_dir=com/company
+		2.可以引用环境变量: ${env.JAVA_HOME} or System.properties: ${user.home},property之间也可以相互引用
+	</comment>
+	
+	<entry key="basepackage">com.u17</entry>
+	<entry key="basepackage_dir">com/u17</entry>
+	
+	<!-- jsp namespace: web/${namespace}/${className}/list.jsp -->
+	<entry key="namespace">pages</entry>
+
+	<entry key="outRoot">E:\outputTest</entry>
+	
+	<!-- 需要移除的表名前缀,使用逗号进行分隔多个前缀,示例值: t_,v_ -->
+	<entry key="tableRemovePrefixes"></entry>
+	
+	<entry key="jdbc.username">test</entry>
+	<entry key="jdbc.password">test@u17.com</entry>
+	
+	<!-- 数据库类型至java类型映射  -->
+	<entry key="java_typemapping.java.sql.Timestamp">java.util.Date</entry>
+	<entry key="java_typemapping.java.sql.Date">java.util.Date</entry>
+	<entry key="java_typemapping.java.sql.Time">java.util.Date</entry>	
+	<entry key="java_typemapping.java.lang.Byte">Integer</entry>
+	<entry key="java_typemapping.java.lang.Short">Integer</entry>
+	<entry key="java_typemapping.java.math.BigDecimal">Long</entry>
+	<entry key="java_typemapping.java.sql.Clob">String</entry>
+	
+	<!-- Mysql -->
+	<entry key="jdbc.url">jdbc:mysql://192.168.1.246:3303/u17_analysis?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull</entry>
+	<entry key="jdbc.driver">com.mysql.jdbc.Driver</entry>
+	<entry key="jdbc.schema">u17_analysis</entry>
+
+</properties>

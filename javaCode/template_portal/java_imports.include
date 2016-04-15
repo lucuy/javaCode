@@ -1,0 +1,7 @@
+import java.util.*;
+import ${basepackage}.base.*;
+import ${basepackage}.util.*;
+import ${basepackage}.portal.bean.*;
+import ${basepackage}.portal.dao.*;
+import ${basepackage}.portal.service.*;
+import ${basepackage}.portal.vo.*;

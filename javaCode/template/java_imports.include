@@ -1,0 +1,7 @@
+import java.util.*;
+import ${basepackage}.base.*;
+import ${basepackage}.util.*;
+import ${basepackage}.bean.*;
+import ${basepackage}.dao.*;
+import ${basepackage}.service.*;
+import ${basepackage}.vo.*;
